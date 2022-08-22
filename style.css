@@ -114,7 +114,6 @@
   height: 92%;/* これが無いと「overflow:scroll」が利かない */
   width: 100%;/* これが無いと「overflow:scroll」が利かない */
   max-width: 600px;
-  background: white;
   padding-top: 20px;
   padding-bottom: 10px;
   border-radius: 10px;
@@ -164,7 +163,7 @@
 .closed_div_p_scroll {
   height: 90%;
   overflow-y: scroll;
-  background-color: white;
+  background-color: rgb(243, 243, 243);
   border-radius: 10px;
   padding-left: 5px;
   padding-right: 5px;
