@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>コードのスニペット保管庫</h1>
+<section>
+    <div class="container">
+
+        <div class="card">
+          <a href="#" class="js-modal-open"  data-target="modal01">
+          <div class="card__content">
+            Daily Life
+          </div>
+        </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="js-modal-open"  data-target="modal02">
+          <div class="card__content">
+            Announcement
+          </div>
+        </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="js-modal-open"  data-target="modal03">
+          <div class="card__content">
+            Calender
+          </div>
+        </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="js-modal-open"  data-target="modal04">
+          <div class="card__content">
+            事務連絡
+          </div>
+        </a>
+        </div>
+
+
+
+
+<!--------------------------------modal window-------------------------------------------->
+  <div id="modal01" class="PopUp modal js-modal">
+    <div class="PopUp modal-bg js-modal-close">
+    </div>
+    <div class="PopUp modal-content">
+      <div class="PopUp modal-padding">
+        <div class="PopUp closed_cover_PopUp">
+          <div class="PopUp closed_div_chr_PopUp">Daily Life</div>
+          <a href="#" class="PopUp js-modal-close">
+              <div class="PopUp closed_div_PopUp">
+                  <p class="PopUp closed_p_PopUp">✕</p>
+              </div>
+          </a>
+        </div>
+        <div class="PopUp closed_div_p_scroll">
+          <br>
+          <pre class="PopUp PopUp-content">
+            <code class="html">
+&lt;!-----カード本体-----&gt;
+&lt;a class=&quot;js-modal-open swiper-slide swiper-slide-active&quot;  data-target=&quot;data-target名をモードるウィンドウの名と一致させてください&quot; style=&quot;margin-right: 32px;&quot; role=&quot;group&quot;&gt;
+  &lt;article class=&quot;slide&quot;&gt;
+    &lt;div class=&quot;slide-media img-cover&quot;&gt;&lt;img src=&quot;./01d7c636c19f6fd80926053d86133f04.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;slide-content&quot;&gt;
+        &lt;time class=&quot;slide-date&quot; datetime=&quot;2021-12-01&quot;&gt;&lt;/time&gt;
+        &lt;h2 class=&quot;slide-title&quot;&gt;&lt;/h2&gt;
+      &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/a&gt;
+
+
+&lt;!-----モーダルウィンドウ-----&gt;
+&lt;div id=&quot;id名をカード本体のdata-target名と一致させてください&quot; class=&quot;PopUp modal js-modal&quot;&gt;
+&lt;div class=&quot;PopUp modal-bg js-modal-close&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;PopUp modal-content&quot;&gt;
+  &lt;div class=&quot;PopUp modal-padding&quot;&gt;
+    &lt;div class=&quot;PopUp closed_cover_PopUp&quot;&gt;
+      &lt;div class=&quot;PopUp closed_div_chr_PopUp&quot;&gt;題名&lt;/div&gt;
+      &lt;a href=&quot;#&quot; class=&quot;PopUp js-modal-close&quot;&gt;
+          &lt;div class=&quot;PopUp closed_div_PopUp&quot;&gt;
+              &lt;p class=&quot;PopUp closed_p_PopUp&quot;&gt;✕&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;PopUp closed_div_p_scroll&quot;&gt;
+      &lt;br&gt;
+      &lt;p class=&quot;PopUp PopUp-content&quot;&gt;
+        本文
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal02" class="PopUp modal js-modal">
+    <div class="PopUp modal-bg js-modal-close">
+    </div>
+    <div class="PopUp modal-content">
+      <div class="PopUp modal-padding">
+        <div class="PopUp closed_cover_PopUp">
+          <div class="PopUp closed_div_chr_PopUp">Announcement</div>
+          <a href="#" class="PopUp js-modal-close">
+              <div class="PopUp closed_div_PopUp">
+                  <p class="PopUp closed_p_PopUp">✕</p>
+              </div>
+          </a>
+        </div>
+        <div class="PopUp closed_div_p_scroll">
+          <br>
+          <pre class="PopUp PopUp-content">
+            <code class="html">
+&lt;a class=&quot;Announcement_a&quot; href=&quot;./PC.html&quot; target=&quot;blank&quot;&gt;
+  &lt;div class=&quot;big_box&quot;&gt;
+    &lt;h2 class=&quot;title_box&quot;&gt;題名&lt;/h2&gt;
+    &lt;p class=&quot;time_box&quot;&gt;西暦.月.日&lt;/p&gt;
+    &lt;p class=&quot;time_box_margin&quot;&gt;&lt;/p&gt;
+    &lt;h3 class=&quot;content_box&quot;&gt;リード文&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+            </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal03" class="PopUp modal js-modal">
+    <div class="PopUp modal-bg js-modal-close">
+    </div>
+    <div class="PopUp modal-content">
+      <div class="PopUp modal-padding">
+        <div class="PopUp closed_cover_PopUp">
+          <div class="PopUp closed_div_chr_PopUp">Daily Life</div>
+          <a href="#" class="PopUp js-modal-close">
+              <div class="PopUp closed_div_PopUp">
+                  <p class="PopUp closed_p_PopUp">✕</p>
+              </div>
+          </a>
+        </div>
+        <div class="PopUp closed_div_p_scroll">
+          <br>
+          <pre class="PopUp PopUp-content">
+            <code class="html">
+&lt;li class=&quot;calender&quot;&gt;
+  &lt;div class=&quot;calender calender_date&quot;&gt;
+    &lt;div class=&quot;calender calender_date_number&quot;&gt;日にち&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;calender calender_date_margin&quot;&gt;予定&lt;/div&gt;
+&lt;/li&gt;
+            </code>
+          </pre> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal04" class="PopUp modal js-modal">
+    <div class="PopUp modal-bg js-modal-close">
+    </div>
+    <div class="PopUp modal-content">
+      <div class="PopUp modal-padding">
+        <div class="PopUp closed_cover_PopUp">
+          <div class="PopUp closed_div_chr_PopUp">事務連絡</div>
+          <a href="#" class="PopUp js-modal-close">
+              <div class="PopUp closed_div_PopUp">
+                  <p class="PopUp closed_p_PopUp">✕</p>
+              </div>
+          </a>
+        </div>
+        <div class="PopUp closed_div_p_scroll">
+          <br>
+          <pre class="PopUp PopUp-content">
+            <code class="html">
+&lt;a  href=&quot;リンク先のURL&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;
+  &lt;li class=&quot;office_li&quot;&gt;題名&lt;/li&gt;
+&lt;/a&gt;
+          </code>
+        </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    // モーダルウィンドウを開く
+    $('.js-modal-open').on('click', function(){
+      var target = $(this).data('target');
+      var modal = document.getElementById(target);
+      scrollPosition = $(window).scrollTop();
+
+      $('body').addClass('fixed').css({'top': -scrollPosition});
+      $(modal).fadeIn();
+      return false;
+    });
+
+    // モーダルウィンドウを閉じる
+    $('.js-modal-close').on('click', function(){
+      $('body').removeClass('fixed');
+      window.scrollTo( 0 , scrollPosition );
+      $('.js-modal').fadeOut();
+      return false;
+    });
+  </script>
+</body>
+</html>
